@@ -14,4 +14,3 @@ upload_response = requests.post(
 with open(zip_path, "rb") as f:
     requests.put(upload_response["upload_url"], data=f)
 zip_url = upload_response["serving_url"]
-zip_url = "https://replicate.delivery/pbxt/IFYJBZ8XoHFfXPkkk3ToCv2n2ccyJHjSo5avPWsXJqbwHs7N/pokemon.zip"

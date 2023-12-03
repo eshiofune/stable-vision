@@ -8,6 +8,13 @@ Create an API token on Replicate and add it to your environmental variables:
 export REPLICATE_API_TOKEN="xx-xx"
 ```
 
+Install replicate:
+
+
+```
+pip install replicate
+```
+
 Run the following in order:
 
 - [upload_images.py](/upload_images.py) (optional) - if you want to upload your training images to Replicate's server. You can also use Google Drive or GitHub Pages.
